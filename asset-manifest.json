@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sweeper-Game/static/css/main.a5cbdf87.css",
+    "main.js": "/Sweeper-Game/static/js/main.1fdba442.js",
+    "index.html": "/Sweeper-Game/index.html",
+    "main.a5cbdf87.css.map": "/Sweeper-Game/static/css/main.a5cbdf87.css.map",
+    "main.1fdba442.js.map": "/Sweeper-Game/static/js/main.1fdba442.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5cbdf87.css",
+    "static/js/main.1fdba442.js"
+  ]
+}
