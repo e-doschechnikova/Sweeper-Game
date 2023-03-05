@@ -8,7 +8,7 @@ import { MAX_COLS, MAX_ROWS } from "../../constants";
 import { BOMBS } from "./../../constants/index";
 
 function App() {
-  const [cells, setCells] = useState<Cell[][]>(generateSells()); //console.log(cells);
+  const [cells, setCells] = useState<Cell[][]>(generateSells());
   const [face, setFace] = useState<Face>(Face.smile);
   const [time, setTime] = useState<number>(0);
   const [live, setLive] = useState<boolean>(false);
