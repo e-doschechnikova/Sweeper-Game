@@ -1,0 +1,52 @@
+.NumberDisplay {
+  width: 90px;
+  height: 48px;
+  display: flex;
+  background: black;
+}
+
+.digit {
+  width: 30px;
+  background-image: url("../../../public/minesweeper.png");
+
+  &.n-0 {
+    background-position: 100% 0.5%;
+    background-size: 300px;
+  }
+  &.n-1 {
+    background-position: 0% 0.5%;
+    background-size: 300px;
+  }
+  &.n-2 {
+    background-position: 10.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-3 {
+    background-position: 22.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-4 {
+    background-position: 33.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-5 {
+    background-position: 44.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-6 {
+    background-position: 55.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-7 {
+    background-position: 67.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-8 {
+    background-position: 78.5% 0.5%;
+    background-size: 300px;
+  }
+  &.n-9 {
+    background-position: 89.5% 0.5%;
+    background-size: 300px;
+  }
+}

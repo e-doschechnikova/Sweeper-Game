@@ -1,0 +1,60 @@
+@import "../../styles/index.scss";
+
+.App {
+  @include borders(white, #999);
+
+  width: 620px;
+  padding: 16px;
+  background: #c2c2c2;
+}
+
+.Header {
+  @include borders(#7b7b7b, white);
+  @include flex(space-between, center);
+
+  padding: 10px 12px;
+  background: #c0c0c0;
+}
+
+.Face {
+  @include borders;
+  @include buttons;
+  @include flex(center, center);
+
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+
+  &.smile {
+    background-image: url("../../../public/minesweeper.png");
+    background-position: 3% 43%;
+    background-size: 250px;
+  }
+
+  &.scared {
+    background-image: url("../../../public/minesweeper.png");
+    background-position: 48% 43%;
+    background-size: 250px;
+  }
+
+  &.lost {
+    background-image: url("../../../public/minesweeper.png");
+    background-position: 93.5% 43%;
+    background-size: 250px;
+  }
+
+  &.won {
+    background-image: url("../../../public/minesweeper.png");
+    background-position: 71% 43%;
+    background-size: 250px;
+  }
+}
+
+.Body {
+  @include borders(#7b7b7b, white);
+
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  margin-top: 16px;
+}

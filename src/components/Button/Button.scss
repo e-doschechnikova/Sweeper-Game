@@ -1,0 +1,75 @@
+@import "../../styles/index.scss";
+
+.Button {
+  @include borders;
+  @include buttons;
+  @include flex(center, center);
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../../../public/minesweeper.png");
+  background-position: 1% 74%;
+  background-size: 320px;
+
+  &.visible {
+    border-color: #7b7b7b;
+    user-select: none;
+
+    background-position: 15% 74%;
+    background-size: 320px;
+
+    &.value-bomb {
+      background-position: 69% 74%;
+      background-size: 320px;
+    }
+
+    &.red {
+      background-position: 83% 75%;
+      background-size: 266px;
+    }
+
+    &.value-1 {
+      background-position: 1.5% 98%;
+      background-size: 320px;
+    }
+    &.value-2 {
+      background-position: 14.5% 98%;
+      background-size: 320px;
+    }
+    &.value-3 {
+      background-position: 28% 98%;
+      background-size: 320px;
+    }
+    &.value-4 {
+      background-position: 42% 98%;
+      background-size: 320px;
+    }
+    &.value-5 {
+      background-position: 55% 98%;
+      background-size: 320px;
+    }
+    &.value-6 {
+      background-position: 68.5% 98%;
+      background-size: 320px;
+    }
+    &.value-7 {
+      background-position: 82% 98%;
+      background-size: 320px;
+    }
+    &.value-8 {
+      background-position: 95.5% 98%;
+      background-size: 320px;
+    }
+  }
+
+  &.flag {
+    background-position: 28% 74%;
+    background-size: 320px;
+  }
+
+  &.question {
+    background-position: 42% 74%;
+    background-size: 320px;
+  }
+}
