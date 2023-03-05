@@ -1,9 +1,10 @@
-# Игра  Сапер 
+<div align="center"> 
 
-[задеплоенная](https://e-doschechnikova.github.io/Sweeper-Game/) 
+# Игра 'Сапёр'. <br/> The game 'Minesweeper' <br/> [Проект на github.io](https://e-doschechnikova.github.io/Sweeper-Game/)
+Проект разработан на React + TS. <br/> The project developed in React + TS.  
 
-### `yarn` - установить зависимости 
+## как запустить проект? <br/> how to start the project? <br/> `yarn start`
 
-### `yarn start` - запустить 
+</div>
 
 
