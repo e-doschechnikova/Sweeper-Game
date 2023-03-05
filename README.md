@@ -1,6 +1,6 @@
 # Игра  Сапер 
 
-[задеплоенная]() 
+[задеплоенная](https://e-doschechnikova.github.io/Sweeper-Game/) 
 
 ### `yarn` - установить зависимости 
 
